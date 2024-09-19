@@ -1,6 +1,6 @@
-# isba4775: Cloud Computing and Networking
+# ISBA 4775: Cloud Computing and Networking
 
-# Mini Project 01
+## Mini Project 01
 September 18, 2024
 | Cleo Pollinger
 
