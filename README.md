@@ -23,12 +23,15 @@ This is a system architecture diagram that we conducted while in class. We based
 This is a System Architecture Diagram based off of our lab in class. I used the same methodology that we learned in class to apply my learning to a real world example. I incorporated an example from my personal life. I used my Dad's home office for a reference and my Brother's room. My Dad's office is located right next to my Brother's room, which is convenient for both parties because the wiring isn't too far apart from each person's end devices. I used desktop PCs as end devices wired to switches and connected to the same router. I am pretty sure this is how it is physically set up in my house, but not accurate to the IP addresses or types of hardware.
 
 ###  2. Step-by-Step Configuration Guide
+**OBJECTIVE: To set up a basic network, without modem and wired-end devices**
+
 When setting up a basic Wide Area Network (WAN) these are a few guiding steps to help ensure it works properly.
 
-1. [ ] 1. Gather all necessary equipment and materials 
-   - set it up
-   - make sure things are plugged in and working properly
-2. [ ] 2. Once all equipment is gathered make sure to plug the cables into a switch
+1. [ ] 1. Gather all necessary equipment and materials
+ - set up end devices
+ - make sure things are plugged in and working properly through ethernet cables
+ - turn on devices and or hardware
+3. [ ] 2. Once all equipment is gathered make sure to plug the cables into a switch
 - make sure that the cables are plugged into the appropriate spots
 - make sure that the cables are plugged in all the way
 - make sure that the switch is on
@@ -38,42 +41,27 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
           - config #interface gigabitethernet0/0
           - config # no shutdown
 4. [ ] 4. Once all the physical things are set up it is time to set up the systems
-   - To set the Default Gateway, go to the end devices and config then type in 
+   - To set the Default Gateway, go to the end devices and config then type in
+ 
+Knowing how to set up a basic network is very important and there are many variations to setting up a home network. In this case it is covering wired end devices and with ethernet cables, but there are home networks with wireless connections and modems. Some examples of using a network would be like two people trying to play video games together each from their respective homes, two people trying to zoom with each other from their home offices, and through remote support chat boxes.
 
 ###  3. Frequently Asked Questions
-5 Key Questions and Answers
-1. haha
-   - hello
-2. haha 
-   - this is 
-4. asdf
-   - hello
-5. asdf
-   - hello
-6. asdf
-   - jello
+5 Key Questions and Answers to address commmon issues and provide clear solutions for creating, modifying, or maintaining the system. 
+1. What equipment do I need to set up a basic home network?
+   - Answer: The equipment needed to set up a basic home network would be an end device, ethernet cables, a switch, and a router. For the most part in basic home networks they incorporate combination devices that are both routers and switches in one device. This helps minimize user error and provides an easier set up for individuals. If you have a combination device it is still important to have ethernet cables to plug devices like a printer, desktops, or even a smart TV. 
+2. What's the difference between a router and a switch?
+   - Answer: A router helps send the necessary data to the correct location and distribute the internet connection to end devices, whereas a switch helps connect end devices together on the same local area network to communicate with one another. Routers are more important for across local area networks also known as a wide area network.
+3. What is a Modem? Do I need one for my basic home network?
+   - Answer: A modem is a device that connects your home network to the internet through an Internet Service Provider (ISP). It depends, sometimes you will need a modem depending on how you are planning to access the internet. Some examples of when you will need a modem is when you are using cable, DSL, or fiber internet. This guide was under the assumption that you are creating a network based on ethernet, so we did not have to incorporate a modem into our diagram and instructions. The ethernet cables are directly connected to an ISP, which would allow the router to connect directly to internet provided.
+4. How do I know if my devices are properly connected to the network?
+   - Answer: One way to discover if your devices are properly connected to the network is through your end devices terminals. Through the terminal you can PING another end device by the command "PING {INSERT IP Address}." This will run a command to check to see if there is another end device on the network. Another way to check is through the physical connections of the ethernet cables for these end devices. 
+5. What should I do if my internet connection is slow?
+   - Answer:
+6. What is a firewall? Do I need one for my network?
+   - Answer:
 
 ###  4. Retrospective
 Initially, when we started with the fundamentals of networking I was overwhelmed because I did not think I would be able to remember all of the steps. As we have practiced with networks by drawing diagrams, through simulations like Cisco Packet Tracer, and lastly through physically putting together a network with our own devices I have gained a lot more comfortable with the material. Throughout each methodology there were different challenges posed. When we started simply drawing the LANs to make a WAN, I more caught up trying to remember what everything was named and what their primary role or function each device provided to the LAN. Since this was my first encounter thinking about networks I felt like there was a lot of moving parts and struggled grasping the application of this in the real world. As we moved onto the online simulation, I was able to develop a stronger understanding of what each item does and see more of the process of putting together a network. It had more of a hands on approach because you had to turn things on and off, "plug" cables into different devices, and set IP addresses. Since it is a simulation its default is that it is the most ideal set-up because everything is always going to work, unless there was any human error. I noticed throughout the simulation we didn't run into the same problems that we ran into when physically putting together our network in class. I found that I struggled mostly staying on track during class, sometimes it would move really fast and it was very easy to fall behind, especially when trying to take handwritten notes. Although sitting next to someone else and asking for help is always super easy to do in this class. There is a lot of encouragement to troubleshoot your own issues in a variety of ways outside of just asking the professor for assistance, which I appreciate as a student. Lastly, for the physical set up of the LAN and the WAN. This was the most challenging of all the other methods teaching us how to set up a network. This lab just had a lot more room for error and needed to put togehter all the concepts that we learned from the previous weeks together into practice. Through this hands-on-experience I was able to learn a lot and it reminded me of the smaller aspects to troubleshoot. For instance, my group and I ran into a problem where we couldn't ping one end device to another while on the same network. We were thinking of all the possible ways it could ahve gone wrong and were stumped as we double checked everything. As we were still thinking about the potential issues we realized that we never turned on the router, so that is why the end devices could not communicate with one anohter. In both the simulation and drawing activies this was not an experience we could have learned about until we were setting up a network manually. It was the simple things that we overlooked, but they are as equally as important to the process just like everything else to get a network up and running properly. Throughout each methodology I was able to learn many different crucical aspects of networks which has provided me with plenty of examples where networks can fail. This hones on my troubleshooting skills and think of potential reasons for failure depending on the issue at hand. This allows me to make better educated guesses about what is failing in the system to solve problems faster. 
 
 I personally like to take handwritten notes because I think it helps with my understanding and learning of the material covered in class. In some of my classes in the past professors have made fill in the blank worksheets which might be helpful, so it goes by a little faster than waiting for all students to write down their notes. It also gets students writing and mroe engageed with the material without taking too much of the time in class because you are not waiting for all students to write down entire sentences. I would like to see a bigger incorporation of notetaking in class. As I am studying for the interview now, I have been taking notes about things that I want to say and highlight throughout, in order to better retain the material and have it by muscle memory. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
