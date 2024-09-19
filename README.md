@@ -41,11 +41,11 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
    - hello 
 2.  ashdf
    - hello
-3. asdf
-   - hello
 4. asdf
    - hello
 5. asdf
+   - hello
+6. asdf
    - jello
 
 ###  4. Retrospective
