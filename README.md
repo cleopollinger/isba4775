@@ -28,10 +28,10 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
 - make sure that the cables are plugged in all the way
 - make sure that the switch is on
 3. Add a Router
-- When adding a router the port status is off by default, make sure that you turn it on for each port being used
-    - Commands to turn on Router
-    - config #interface gigabitethernet0/0
-    - config # no shutdown
+  - When adding a router the port status is off by default, make sure that you turn it on for each port being use
+     - Commands to turn on Router...
+          - config #interface gigabitethernet0/0
+          - config # no shutdown
 4. Once all the physical things are set up it is time to set up the 
 
 ###  3. Frequently Asked Questions
