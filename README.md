@@ -11,6 +11,9 @@ Cleo Pollinger
 
 <img width="701" alt="Screenshot 2024-09-18 at 11 34 17 PM" src="https://github.com/user-attachments/assets/54b7c4dd-defc-4d7b-99ca-0f4025d8ed62">
 
+[System_Architecture_Diagram.pdf](https://github.com/user-attachments/files/17060047/System_Architecture_Diagram.pdf)
+
+
 This is a system architecture diagram that we conducted while in class. We based it off of the ISBA lounge and the Data Center in UHall. In the ISBA lounge there are tons of desktops as the end devices, which I presume are connected to a switch and all hooked to a router. This router is also connected to the data center in UHall, which has end devices of servers. These servers are similarly connected to a switch just like the desktops in the ISBA lounge. This switch is also connected to the router. This diagram shows the physical set up of all devices but not the nitty gritty bits setting up these devices. Assuming that all of the smaller details were set up properly it allows devices from the ISBA Lounge to communicate to servers at the Data Center in UHall. This is how we made a Wide Area Network (WAN) composed of two smaller Local Area Networks (LAN).
 
 <img width="846" alt="Screenshot 2024-09-18 at 10 20 57 PM" src="https://github.com/user-attachments/assets/1b31d471-e2f2-4b09-bdc5-e14c94a49c1b">
