@@ -20,19 +20,19 @@ This is a System Architecture Diagram based off of our lab in class. I used the 
 ###  2. Step-by-Step Configuration Guide
 When setting up a basic Wide Area Network (WAN) these are a few guiding steps to help ensure it works properly.
 
-1. Gather all necessary equipment and materials
+1. Gather all necessary equipment and materials [ ]
    - set it up
    - make sure things are plugged in and working properly
-3. Once all equipment is gathered make sure to plug the cables into a switch
+2. Once all equipment is gathered make sure to plug the cables into a switch [ ]
 - make sure that the cables are plugged into the appropriate spots
 - make sure that the cables are plugged in all the way
 - make sure that the switch is on
-3. Add a Router
+3. Add a Router [ ]
   - When adding a router the port status is off by default, make sure that you turn it on for each port being use
      - Commands to turn on Router...
           - config #interface gigabitethernet0/0
           - config # no shutdown
-4. Once all the physical things are set up it is time to set up the 
+4. Once all the physical things are set up it is time to set up the [ ]
 
 ###  3. Frequently Asked Questions
 
