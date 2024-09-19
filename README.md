@@ -38,9 +38,9 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
 ###  3. Frequently Asked Questions
 5 Key Questions and Answers
 1. haha
-   - hello 
-2.  ashdf
    - hello
+2. haha 
+   - this is 
 4. asdf
    - hello
 5. asdf
