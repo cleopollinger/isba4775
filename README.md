@@ -43,11 +43,11 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
           - config # interface gigabitethernet0/0
           - config # no shutdown
 4. [ ] 4. Once all the physical things are set up it is time to set up the systems
-   - Set up IP Addresses on all end devices, in this case since it is a home network we are going to use private Class C IP Addresses. For the example above we set the IP Address to be 192.168.0.2-192.168.0.245, you can use any of these IP addresses but be sure to properly label and keep track of what devices are attached to specific IP addresses.
-   - Set up IP address on router, typically routers are the first IP Address in the set. So in this case the router's IP address would be 192.168.0.1.
-   - Lastly, set the Default Gateway, go to the end devices and config then type in the router's IP Address, make sure to do this for every port being used.
-      - Since we have two LANs in this scenario the ISBA LAN is going to have a default gateway set to 192.168.0.1 and the subnet mask is 255.255.255.0
-      - The Data Center LAN to the router will have a default gateway set to 172.16.0.1 and the subnet mask is 255.255.255.0
+- Set up IP Addresses on all end devices, in this case since it is a home network we are going to use private Class C IP Addresses. For the example above we set the IP Address to be 192.168.0.2-192.168.0.245, you can use any of these IP addresses but be sure to properly label and keep track of what devices are attached to specific IP addresses.
+- Set up IP address on router, typically routers are the first IP Address in the set. So in this case the router's IP address would be 192.168.0.1.
+- Lastly, set the Default Gateway, go to the end devices and config then type in the router's IP Address, make sure to do this for every port being used.
+  - Since we have two LANs in this scenario the ISBA LAN is going to have a default gateway set to 192.168.0.1 and the subnet mask is 255.255.255.0
+  - The Data Center LAN to the router will have a default gateway set to 172.16.0.1 and the subnet mask is 255.255.255.0
  
 
 
