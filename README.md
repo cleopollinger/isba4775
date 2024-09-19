@@ -23,26 +23,37 @@ This is a system architecture diagram that we conducted while in class. We based
 This is a System Architecture Diagram based off of our lab in class. I used the same methodology that we learned in class to apply my learning to a real world example. I incorporated an example from my personal life. I used my Dad's home office for a reference and my Brother's room. My Dad's office is located right next to my Brother's room, which is convenient for both parties because the wiring isn't too far apart from each person's end devices. I used desktop PCs as end devices wired to switches and connected to the same router. I am pretty sure this is how it is physically set up in my house, but not accurate to the IP addresses or types of hardware.
 
 ###  2. Step-by-Step Configuration Guide
-**OBJECTIVE: To set up a basic network, without modem and wired-end devices**
+**OBJECTIVE: To set up a basic network using wired end devices, without a modem.**
 
-Knowing how to set up a basic network is very important and there are many variations to setting up a home network. In this case it is covering wired end devices and with ethernet cables, but there are home networks with wireless connections and modems. Some examples of using a network would be like two people trying to play video games together each from their respective homes, two people trying to zoom with each other from their home offices, and through remote support chat boxes.
+Setting up a basic network is essential, and there are many variations in how home networks can be configured. In this guide, we will focus on connecting wired end devices with Ethernet cables. Keep in mind that home networks can also include wireless connections and modems, but these are not covered here.
 
-When setting up a basic Wide Area Network (WAN) these are a few guiding steps to help ensure it works properly.
+Some common use cases for a network include:
+- Two people playing video games together from their respective homes
+- Two people holding a Zoom meeting from their home offices
+- Using a remote support chat box for troubleshooting or assitance
 
-1. [ ] 1. Gather all necessary equipment and materials
- - set up end devices
- - make sure things are plugged in and working properly through ethernet cables
- - turn on devices and or hardware (Router and Switch)
-3. [ ] 2. Once all equipment is gathered make sure to plug the ethernet cables into Switch from end devices
-- make sure that the cables are plugged into the appropriate spots
-- make sure that the cables are plugged in all the way
-- make sure that the switch is on
-3. [ ] 3. Add a Router and plug it in using ethernet cables into Switch
+When setting up a basic Wide Area Network (WAN), follow these steps to ensure proper set-up:
+
+1. [ ] 1. Gather All Necessary Equipment and Materials
+ - set up your end devices (PCs, MacBooks, Printers, etc.)
+ - make sure things are plugged in with ethernet cables and working properly
+ - turn on all devices and hardware, such as the Router and Switch
+2. [ ] 2. Connect Devices to the Switch
+- Plug the ethernet cables from the end devices to the switch
+ - make sure that the cables are plugged in all the way
+ - make sure the cables are plugged into the correct ports on the switch
+ - make sure the switch is on
+3. [ ] 3. Add and Configure the Router
+  - Connect the Router to the Switch using ethernet cables
   - When adding a router the port status is off by default, make sure that you turn it on for each port being used
      - Commands to turn on Router...
-          - config # interface gigabitethernet0/0
-          - config # no shutdown
-4. [ ] 4. Once all the physical things are set up it is time to set up the systems
+       ```
+       config # interface gigabitethernet0/0
+       config # no shutdown
+       ```
+       *the numbers from this command "gigabitethernet0/0" will change depending on the port number, so be mindful when turning on Router ports*
+4. [ ] 4. Configure IP Addresses and Gateways
+Once all the physical things are set up it is time to set up the systems...
 - Set up IP Addresses on all end devices, in this case since it is a home network we are going to use private Class C IP Addresses. For the example above we set the IP Address to be 192.168.0.2-192.168.0.245, you can use any of these IP addresses but be sure to properly label and keep track of what devices are attached to specific IP addresses.
 - Set up IP address on router, typically routers are the first IP Address in the set. So in this case the router's IP address would be 192.168.0.1.
 - Lastly, set the Default Gateway, go to the end devices and config then type in the router's IP Address, make sure to do this for every port being used.
