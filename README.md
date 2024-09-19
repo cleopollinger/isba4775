@@ -55,8 +55,8 @@ Knowing how to set up a basic network is very important and there are many varia
    - Answer: A modem is a device that connects your home network to the internet through an Internet Service Provider (ISP). It depends, sometimes you will need a modem depending on how you are planning to access the internet. Some examples of when you will need a modem is when you are using cable, DSL, or fiber internet. This guide was under the assumption that you are creating a network based on ethernet, so we did not have to incorporate a modem into our diagram and instructions. The ethernet cables are directly connected to an ISP, which would allow the router to connect directly to internet provided.
 4. How do I know if my devices are properly connected to the network?
    - Answer: One way to discover if your devices are properly connected to the network is through your end devices terminals. Through the terminal you can PING another end device by the command "PING {INSERT IP Address}." This will run a command to check to see if there is another end device on the network. Another way to check is through the physical connections of the ethernet cables for these end devices. 
-5. What should I do if my internet connection is slow?
-   - Answer:
+5. Why is my internet connection slow? What should I do to fix it?
+   - Answer: There might be multiple reasons why your internet connection is slow. One potential issue is the placement of your router. If your router is not in a centrally located area and blocked by many objects it could slow down the wireless connection for end devices.  
 6. What is a firewall? Do I need one for my network?
    - Answer:
 
