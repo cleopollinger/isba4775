@@ -35,32 +35,91 @@ Some common use cases for a network include:
 When setting up a basic Wide Area Network (WAN), follow these steps to ensure proper set-up:
 
 1. [ ] 1. Gather All Necessary Equipment and Materials
+<img width="778" alt="Screenshot 2024-09-19 at 9 59 22 AM" src="https://github.com/user-attachments/assets/44a35871-ccc9-456d-9587-ccd5f306a223">
+
+*Cisco Packet Tracer doesn't allow you to represent loose cords, but you should have ethernet cords out*
+
  - set up your end devices (PCs, MacBooks, Printers, etc.)
  - make sure things are plugged in with ethernet cables and working properly
- - turn on all devices and hardware, such as the Router and Switch
+ - turn on all devices and hardware, such as the Router and Switch. The switch and router needs to be plugged into a socket.
+<img width="459" alt="Screenshot 2024-09-19 at 10 03 11 AM" src="https://github.com/user-attachments/assets/78aca9a5-8eaa-4095-a685-d79d8f5045a1">
+
+*Router plugged into socket and turned on*
+
+<img width="459" alt="Screenshot 2024-09-19 at 10 03 49 AM" src="https://github.com/user-attachments/assets/54d5da41-2170-450d-a47c-b633a757406b">
+
+*Switch plugged into socket*
+
 2. [ ] 2. Connect Devices to the Switch
 - Plug the ethernet cables from the end devices to the switch
  - make sure that the cables are plugged in all the way
  - make sure the cables are plugged into the correct ports on the switch
  - make sure the switch is on
-3. [ ] 3. Add and Configure the Router
+
+<img width="688" alt="Screenshot 2024-09-19 at 10 06 35 AM" src="https://github.com/user-attachments/assets/163f0a0e-be2f-4aa1-b5e8-1b9a6b762099">
+
+*the ethernet cables have been plugged in from end devices to switch*
+
+3. [ ] 3. Configure the Router
   - Connect the Router to the Switch using ethernet cables
+
+<img width="688" alt="Screenshot 2024-09-19 at 10 08 18 AM" src="https://github.com/user-attachments/assets/37bb8f51-616e-46a8-b1ad-46c997bc2d11">
+
+*Prior to turning on the router ports, so connection is not set up yet. Only added the ethernet cables from switch to router*
+
   - When adding a router the port status is off by default, make sure that you turn it on for each port being used
      - Commands to turn on Router...
        ```
        config # interface gigabitethernet0/0
        config # no shutdown
+
        ```
        *the numbers from this command "gigabitethernet0/0" will change depending on the port number, so be mindful when turning on Router ports*
+
+<img width="675" alt="Screenshot 2024-09-19 at 10 09 52 AM" src="https://github.com/user-attachments/assets/6887234f-de76-4e77-980c-25de6dc773e1">
+
+*From this image you can see that the port status is on and that the commands have been called to turn on the router port*
+ 
 4. [ ] 4. Configure IP Addresses and Gateways
+
 Once all the physical things are set up it is time to set up the systems...
+
 - Set up IP Addresses on all end devices, in this case since it is a home network we are going to use private Class C IP Addresses. For the example above we set the IP Address to be 192.168.0.2-192.168.0.245, you can use any of these IP addresses but be sure to properly label and keep track of what devices are attached to specific IP addresses.
-- Set up IP address on router, typically routers are the first IP Address in the set. So in this case the router's IP address would be 192.168.0.1.
+
+
+
+<img width="693" alt="Screenshot 2024-09-19 at 10 14 37 AM" src="https://github.com/user-attachments/assets/1c1fdc61-d4b4-4224-b4ec-cb6aff174d0d">
+
+*Setting up the IP Address and Subnet Mask on the PC*
+
+- Set up IP address on router, typically routers are the first IP Address in the set. So in this case the router's IP address would be 192.168.0.1 on the left-hand side LAN.
+
+
+<img width="693" alt="Screenshot 2024-09-19 at 10 17 47 AM" src="https://github.com/user-attachments/assets/ac4cba0b-9de8-4fff-8408-343ca8b3468a">
+
+*IP address set up on router with subnet mask and the corresponding commmands, be sure to set the IP address for every port. This was for port 0/0*
+
+<img width="670" alt="Screenshot 2024-09-19 at 10 19 21 AM" src="https://github.com/user-attachments/assets/f0459e77-2127-4ee3-9534-05baadc51c0d">
+
+*IP address and subnet mask set up for port 0/1*
+
 - Lastly, set the Default Gateway, go to the end devices and config then type in the router's IP Address, make sure to do this for every port being used.
-  - Since we have two LANs in this scenario the ISBA LAN is going to have a default gateway set to 192.168.0.1 and the subnet mask is 255.255.255.0
+  - Since we have two LANs in this scenario the ISBA LAN is going to have a default gateway set to 192.168.0.1
+
+<img width="670" alt="Screenshot 2024-09-19 at 10 21 21 AM" src="https://github.com/user-attachments/assets/b932498f-f161-45fd-9a05-dd7dbeb55b32">
+
+*This is set up through the end-devices*
+
   - The Data Center LAN to the router will have a default gateway set to 172.16.0.1 and the subnet mask is 255.255.255.0
  
+ <img width="670" alt="Screenshot 2024-09-19 at 10 25 20 AM" src="https://github.com/user-attachments/assets/481e00d3-3427-48f0-af8b-74b6942f8af6">
 
+*This is the set up of the default gateway from the right hand side of the router*
+
+***END RESULT***
+<img width="747" alt="Screenshot 2024-09-19 at 10 26 52 AM" src="https://github.com/user-attachments/assets/f7104b83-1120-4629-baee-d7240467f8a3">
+
+Congratulations, you have just set up a basic network! 
 
 ###  3. Frequently Asked Questions
 Key Questions and Answers to address commmon issues and provide clear solutions for creating, modifying, or maintaining the system. 
