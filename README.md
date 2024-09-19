@@ -17,6 +17,17 @@ Cleo Pollinger
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 This is a system architecture diagram that we conducted while in class. 
 
 
