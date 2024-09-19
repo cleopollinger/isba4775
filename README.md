@@ -21,9 +21,9 @@ This is a System Architecture Diagram based off of our lab in class. I used the 
 When setting up a basic Wide Area Network (WAN) these are a few guiding steps to help ensure it works properly.
 
 1. Gather all necessary equipment and materials
-       - set it up
-       - make sure things are plugged in and working properly
-2. Once all equipment is gathered make sure to plug the cables into a switch
+   - set it up
+   - make sure things are plugged in and working properly
+3. Once all equipment is gathered make sure to plug the cables into a switch
 - make sure that the cables are plugged into the appropriate spots
 - make sure that the cables are plugged in all the way
 - make sure that the switch is on
