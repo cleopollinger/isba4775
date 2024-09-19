@@ -32,18 +32,20 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
 1. [ ] 1. Gather all necessary equipment and materials
  - set up end devices
  - make sure things are plugged in and working properly through ethernet cables
- - turn on devices and or hardware
-3. [ ] 2. Once all equipment is gathered make sure to plug the cables into a switch
+ - turn on devices and or hardware (Router and Switch)
+3. [ ] 2. Once all equipment is gathered make sure to plug the ethernet cables into Switch
 - make sure that the cables are plugged into the appropriate spots
 - make sure that the cables are plugged in all the way
 - make sure that the switch is on
-3. [ ] 3. Add a Router
+3. [ ] 3. Add a Router and plug it in using ethernet cables
   - When adding a router the port status is off by default, make sure that you turn it on for each port being use
      - Commands to turn on Router...
-          - config #interface gigabitethernet0/0
+          - config # interface gigabitethernet0/0
           - config # no shutdown
 4. [ ] 4. Once all the physical things are set up it is time to set up the systems
+   - Set up IP Addresses on all end devices, in this case since it is a home network we are going to use private Class C IP Addresses. For the example above we set the IP Address to be 19
    - To set the Default Gateway, go to the end devices and config then type in
+   - 
 
 
 ###  3. Frequently Asked Questions
