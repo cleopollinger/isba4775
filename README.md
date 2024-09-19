@@ -17,7 +17,7 @@ This is a System Architecture Diagram based off of our lab in class. I used the 
 
 <img width="701" alt="Screenshot 2024-09-18 at 11 34 17 PM" src="https://github.com/user-attachments/assets/54b7c4dd-defc-4d7b-99ca-0f4025d8ed62">
 
-
+This is a system architecture diagram that we conducted while in class. 
 
 
 
