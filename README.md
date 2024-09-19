@@ -25,6 +25,8 @@ This is a System Architecture Diagram based off of our lab in class. I used the 
 ###  2. Step-by-Step Configuration Guide
 **OBJECTIVE: To set up a basic network, without modem and wired-end devices**
 
+Knowing how to set up a basic network is very important and there are many variations to setting up a home network. In this case it is covering wired end devices and with ethernet cables, but there are home networks with wireless connections and modems. Some examples of using a network would be like two people trying to play video games together each from their respective homes, two people trying to zoom with each other from their home offices, and through remote support chat boxes.
+
 When setting up a basic Wide Area Network (WAN) these are a few guiding steps to help ensure it works properly.
 
 1. [ ] 1. Gather all necessary equipment and materials
@@ -42,8 +44,7 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
           - config # no shutdown
 4. [ ] 4. Once all the physical things are set up it is time to set up the systems
    - To set the Default Gateway, go to the end devices and config then type in
- 
-Knowing how to set up a basic network is very important and there are many variations to setting up a home network. In this case it is covering wired end devices and with ethernet cables, but there are home networks with wireless connections and modems. Some examples of using a network would be like two people trying to play video games together each from their respective homes, two people trying to zoom with each other from their home offices, and through remote support chat boxes.
+
 
 ###  3. Frequently Asked Questions
 Key Questions and Answers to address commmon issues and provide clear solutions for creating, modifying, or maintaining the system. 
