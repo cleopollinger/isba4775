@@ -1,7 +1,11 @@
 # ISBA 4775: Cloud Computing and Networking
 
 ## Mini Project 01
-**September 18, 2024 | Cleo Pollinger**
+
+September 18, 2024
+
+
+Cleo Pollinger
 
 ###  1. System Architecture Diagram
 <img width="846" alt="Screenshot 2024-09-18 at 10 20 57 PM" src="https://github.com/user-attachments/assets/1b31d471-e2f2-4b09-bdc5-e14c94a49c1b">
