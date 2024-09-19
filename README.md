@@ -23,7 +23,7 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
 1. [ ] 1. Gather all necessary equipment and materials 
    - set it up
    - make sure things are plugged in and working properly
-2. [ ]  2. Once all equipment is gathered make sure to plug the cables into a switch
+2. [ ] 2. Once all equipment is gathered make sure to plug the cables into a switch
 - make sure that the cables are plugged into the appropriate spots
 - make sure that the cables are plugged in all the way
 - make sure that the switch is on
@@ -36,5 +36,37 @@ When setting up a basic Wide Area Network (WAN) these are a few guiding steps to
    - To set the Default Gateway, go to the end devices and config then type in 
 
 ###  3. Frequently Asked Questions
+5 Key Questions and Answers
+1. haha
+   - hello 
+2.  ashdf
+   - hello
+3. asdf
+   - hello
+4. asdf
+   - hello
+5. asdf
+   - jello
 
 ###  4. Retrospective
+Initially, when we started with the fundamentals of networking I was overwhelmed because I did not think I would be able to remember all of the steps. As we have practiced with networks by drawing diagrams, through simulations like Cisco Packet Tracer, and lastly through physically putting together a network with our own devices I have gained a lot more comfortable with the material. Throughout each methodology there were different challenges posed. When we started simply drawing the LANs to make a WAN, I more caught up trying to remember what everything was named and what their primary role or function each device provided to the LAN. Since this was my first encounter thinking about networks I felt like there was a lot of moving parts and struggled grasping the application of this in the real world. As we moved onto the online simulation, I was able to develop a stronger understanding of what each item does and see more of the process of putting together a network. It had more of a hands on approach because you had to turn things on and off, "plug" cables into different devices, and set IP addresses. Since it is a simulation its default is that it is the most ideal set-up because everything is always going to work, unless there was any human error. I noticed throughout the simulation we didn't run into the same problems that we ran into when physically putting together our network in class. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
