@@ -20,7 +20,7 @@ This is a System Architecture Diagram based off of our lab in class. I used the 
 ###  2. Step-by-Step Configuration Guide
 When setting up a basic Wide Area Network (WAN) these are a few guiding steps to help ensure it works properly.
 
-1. Gather all necessary equipment and materials [ ] checklist
+1. [ ] Gather all necessary equipment and materials 
    - set it up
    - make sure things are plugged in and working properly
 2. Once all equipment is gathered make sure to plug the cables into a switch [ ]
