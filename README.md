@@ -117,6 +117,7 @@ Once all the physical things are set up it is time to set up the systems...
 *This is the set up of the default gateway from the right hand side of the router*
 
 ***END RESULT***
+
 <img width="747" alt="Screenshot 2024-09-19 at 10 26 52 AM" src="https://github.com/user-attachments/assets/f7104b83-1120-4629-baee-d7240467f8a3">
 
 Congratulations, you have just set up a basic network! 
